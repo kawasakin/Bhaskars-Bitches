@@ -10,6 +10,7 @@ load('PY12N005_07_07_2012_21-46-37_659sec.mat')
 
 %hold on
 [B,C] = sort(s,'descend');
+%Calculate Power of result
 x = sum(B(1:10,:))/10;
 times = 1:.1:max(t);
 Train = NewTrain(t,x,4,times);
