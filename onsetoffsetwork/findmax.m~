@@ -26,9 +26,8 @@ plot(times,Train./2)
 
 power = zeros(size(t));
 for i = 1:size(t)
-    coeffs = s(:,i);
+    coeffs = s(:,i)
     power(i) = sum(coeffs.*f);
 end
 
 
-plot(t,power)
