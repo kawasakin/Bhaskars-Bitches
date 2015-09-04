@@ -4,7 +4,7 @@ load('PY12N005_07_07_2012_21-46-37_659sec.mat')
 
 
 
-%[s,f,t] = getspectrogram(eeg(1,:));
+[s,f,t] = getspectrogram(eeg(1,:));
 %use proper spectrogram function
 
 
